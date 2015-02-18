@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="paddy.mchugh.com.expandablelist2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ScrollerImageDisplay" />
+        <activity
+            android:name=".cloughaneely_stone_activity"
+            android:label="@string/title_activity_cloughaneely_stone_activity" >
+        </activity>
+        <activity
+            android:name=".tullaghobegley_layout"
+            android:label="@string/title_activity_tullaghobegley_layout" >
+        </activity>
+        <activity
+            android:name=".activity_ballyconnell_house"
+            android:label="@string/title_activity_activity_ballyconnell_house" >
+        </activity>
+        <activity
+            android:name=".ray_church"
+            android:label="@string/title_activity_ray_church" >
+        </activity>
+        <activity
+            android:name=".bridge_of_tears"
+            android:label="@string/title_activity_bridge_of_tears" >
+        </activity>
+        <activity
+            android:name=".begleys_kneeling_stone"
+            android:label="@string/title_activity_begleys_kneeling_stone" >
+        </activity>
+        <activity
+            android:name=".portal_dolmen"
+            android:label="@string/title_activity_portal_dolmen" >
+        </activity>
+        <activity
+            android:name=".teach_mici_mac_gabhann"
+            android:label="@string/title_activity_teach_mici_mac_gabhann" >
+        </activity>
+        <activity
+            android:name=".castle_bawne"
+            android:label="@string/title_activity_castle_bawne" >
+        </activity>
+        <activity
+            android:name=".mangan_bus"
+            android:label="@string/title_activity_mangan_bus" >
+        </activity>
+        <activity
+            android:name=".ards_forest_park"
+            android:label="@string/title_activity_ards_forest_park" >
+        </activity>
+        <activity
+            android:name=".glenveagh_national_park"
+            android:label="@string/title_activity_glenveagh_national_park" >
+        </activity>
+    </application>
+
+</manifest>

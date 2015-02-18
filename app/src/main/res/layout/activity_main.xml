@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#f4f4f4"
+    tools:context=".MainActivity"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fáilte | Welcome | Bienvenue \n Wilkommen | Welkom | Bienvenidos"
+        android:gravity="center"
+        android:background="#005875"
+        android:id="@+id/welcome_text"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_below="@id/welcome_text"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/horizontalScrollView"
+        android:paddingBottom="10dp"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/imageButton01"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+
+
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/imageButton02"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/imageButton03"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/imageButton04"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+
+                />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+    </HorizontalScrollView>
+
+
+
+    <ExpandableListView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvExp"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:transcriptMode="disabled"
+
+
+         />
+
+
+
+
+</RelativeLayout>
